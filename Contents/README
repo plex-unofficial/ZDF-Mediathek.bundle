@@ -1,0 +1,15 @@
+You can adjust __init__.py to add shortcuts to your favorit shows.
+Just add them to the SHOWS array. Examples are included.
+
+You can adjust how many videos per show should be displayed using the 
+variable MAX_ENRIES.
+ZDF displays 26 videos per show by default and links to more videos. In
+this plugin, you can specify how many videos should be displayed per show.
+The default is 50. Increasing this number might cause a significant delay
+to display the video list as more data has to be fetched from the server.
+
+You can also decide whether you want the plugin to display trailers. By
+default, trailers are not displayed.
+
+Also, "Interaktive Inhalte" and "Bilderserien" are not displayed.
+"Bilderserien" might be supported in a future version of the plugin.
